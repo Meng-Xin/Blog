@@ -1,0 +1,33 @@
+.home-transform-box{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+.home-transform-box .antRow{
+    box-sizing: border-box;
+}
+#card-border{
+    border:solid rgb(240 242 245);
+    border-radius: 10px;
+
+}
+.card-desc {
+    font-weight: 600;
+    text-align: center;
+    margin: 10px auto;
+
+}
+.card-descr #card-title {
+    margin-top: .3rem;
+    line-height: 18px;
+    color: rgba(0,0,0,.45);
+    font-size: 1rem;
+}
+.card-desc #card-count{
+    margin-top: .75rem;
+    color: #666;
+    font-size: 1.25rem;
+}

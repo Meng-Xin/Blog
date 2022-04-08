@@ -1,0 +1,25 @@
+.scrollitem{
+    width: 75%;
+	line-height:200px;
+	box-shadow: 2px 2px 8px   #7f7f7f;
+	margin: 15px auto;
+	padding-bottom: 40px;
+	border-radius: 10px;
+	border: #0015 solid 1px;
+	/* background:rgba(255,255,255,0.2); */
+}
+.g-article-list{
+    /* overflow-y: scroll; */
+    /* height: 100%; */
+	overflow: hidden;
+}
+
+.ant-tag{
+	padding: 5px 15px ;
+ }
+ .scrollitem{
+	padding-bottom: 20px;
+ }
+ .ant-list-lg .ant-list-item{
+	padding: 5px 10px;
+ }

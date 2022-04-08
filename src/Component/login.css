@@ -1,0 +1,10 @@
+.login-form{
+    min-width: 320px;
+    max-width: 500px;
+    position: absolute;
+    transform: translate3d(-50%,-50%,0);
+    right: 50%;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+}

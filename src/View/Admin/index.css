@@ -1,0 +1,59 @@
+
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.site-layout-sub-header-background {
+  background: #fff;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+
+  @import '~antd/dist/antd.css';
+
+
+  .NavBar{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    border-bottom: 1px solid #d8dce5;  
+  }
+  .NavBar .Nav-right{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .hisBrows {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    border-bottom: 1px solid #d8dce5;;
+  }
+
+  .ant-menu-dark.ant-menu-inline .ant-menu-item, .ant-menu-dark.ant-menu-inline .ant-menu-submenu-title {
+    width: 100%;
+    height: 60px;
+  }
+
+  .ant-card-head-title{
+    display: inline-block;
+    flex: 1 1;
+    padding: 16px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    font-family: Helvetica,Arial,“Hiragino Sans GB”,“Microsoft Yahei”,“微软雅黑”,STHeiti,“华文细黑”,sans-serif;
+
+  }
